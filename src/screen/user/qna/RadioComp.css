@@ -1,0 +1,22 @@
+.input-radio label, input{
+    cursor: pointer;
+    padding: 1rem;
+    margin: .5rem;
+    transform: scale(2);
+    margin-bottom: 1em;   
+    
+    }
+    
+    .input-radio [type="radio"] {
+        
+        accent-color: #3EA31B;
+      
+        
+    }
+    
+     input[type='radio']:checked + label {
+        accent-color: #3EA31B;
+        font-weight: bold;
+        
+    }
+    

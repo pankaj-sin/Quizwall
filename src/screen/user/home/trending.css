@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    /* position: relative; */
+    border-radius: 1rem;
+    /* height: 100vh; */
+    width: 100vw;
+    background-color: #22819B;
+    overflow: hidden;
+}
+.continer{
+    /* height: 100vh; */
+    /* margin-top: 5%;
+    margin-bottom: 50%;
+    margin-left: 5%;
+    margin-right: 5%; */
+    margin: 20px 5%;
+    background-color: white;
+    border-radius: .5rem;
+    border: 10px solid white;
+    padding: .5%;
+    overflow-x: hidden;
+    }
+.container1{
+    /* height: 50%; */
+    display: flex;
+    gap: 1.09rem;
+    padding: 3%;
+    /* overflow: hidden; */
+}
+.image_div{
+    width: 25%;
+}
+.item_container{
+    width: 75%;
+    /* height: 120%; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    /* gap: 10%; */
+}
+.fast_food_detail_container{
+    display: flex;
+    gap: 10%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.food_detils{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color:#B6B6B6;
+    font-size: 12px;
+}
+.food_image{
+    width: 100%;
+    border-radius: 50%;
+    background-color:#F8E1E3,#F7FFF3 ;
+    border: 1px solid #F8E1E3;
+}
+.button-9 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #6A38EF;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Gantari';
+  font-size: 100%;
+  font-style: normal;
+  height: 44px;
+  line-height: 1.15;
+  /* margin: 12px 0 0; */
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+.button-9:disabled {
+  cursor: default;
+}
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+.Cash_bonanza_div{
+    font-family: 'Gantari';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    /* UI Colors/Text Primary Color */
+    color: #2C2C2C;
+}
+.Fast_food_div{
+    font-family: 'Gantari';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #22819B;
+}
+.offer_div{
+    position: absolute;
+    z-index: 1;
+margin-left: 15%;    /* right: .rem; */
+}

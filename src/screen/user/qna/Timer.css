@@ -1,0 +1,21 @@
+.timer{
+    font-family: 'Gantari';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 152.19%;
+    color: #267826;
+}
+.pau_icon{
+    display: flex;
+    cursor: pointer;
+    transform: scaleX(1.2);
+    transition: all 1s;
+    gap: 1rem;
+}    
+.play{
+background-color: whitesmoke;
+}
+    .pause{
+background-color: white;
+    }

@@ -1,0 +1,356 @@
+.boxCover {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 10px;
+}
+
+.categoryContainer,
+.quizContainer,
+.subcatContainer {
+	width: 100%;
+	background-color: rgba(34, 129, 155, 1);
+	border-radius: 10px;
+	padding: 10px 10px;
+	position: relative;
+	margin-top: 75px;
+}
+.subcatContainer {
+	background-color: white;
+}
+
+.heightOne {
+	height: 3px;
+	position: relative;
+}
+.headingImage {
+	width: 100%;
+	max-width: 190px;
+	height: auto;
+	position: absolute;
+	bottom: -100%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.categorySlider {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	padding: 20px 0 0px;
+	position: relative;
+}
+
+.allCategory {
+	display: flex;
+	overflow: scroll;
+}
+.allCategory::-webkit-scrollbar {
+	display: none;
+}
+.category {
+	margin: 0 9px 0 0;
+	padding: 15px 25px 15px 25px;
+	background-color: white;
+	border-radius: 8px;
+	text-align: center;
+}
+
+.categoryImage {
+	width: 60px;
+	height: 60px;
+	justify-content: center;
+	margin: 0 auto;
+	background-color: rgba(249, 207, 207, 0.2);
+	border-radius: 100%;
+}
+
+.category h4 {
+	font: 500 17px/1 "Montserrat", sans-serif;
+	margin-top: 20px;
+}
+
+.viewBox {
+	display: inline-block;
+	margin-top: 18px;
+	border: 1px solid rgba(34, 129, 155, 1);
+	border-radius: 8px;
+	padding: 10px 13px;
+	color: rgba(34, 129, 155, 1);
+	font: 700 14px/17px "Montserrat", sans-serif;
+}
+
+.quizCover {
+	padding: 20px 0 0px;
+	position: relative;
+	width: 100%;
+}
+
+.quizBox {
+	width: 100%;
+	border-radius: 4px;
+	background-color: white;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.reward {
+	width: 100%;
+	background-color: rgba(106, 56, 239, 1);
+	padding: 12px 8px;
+	font: 500 14px/16px "Montserrat", sans-serif;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.reward p {
+	color: white;
+}
+
+.quizInfo {
+	width: 100%;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+.quizImage {
+	width: 70px;
+	margin: 0 10px 0 0;
+	height: 70px;
+	box-sizing: border-box;
+	background-color: rgba(248, 225, 227, 1);
+	border-radius: 100%;
+	justify-content: center;
+}
+
+.quizdesc {
+	width: calc(100% - 70px);
+	box-sizing: border-box;
+}
+
+.quizName {
+	width: 100%;
+	font: 600 16px/19px "Montserrat", sans-serif;
+}
+
+.catName {
+	width: 100%;
+	font: 300 12px/17px "Montserrat", sans-serif;
+	margin: 5px 0;
+	color: #22819b;
+}
+
+.quizTime {
+	width: 100%;
+	justify-content: space-between;
+}
+
+.points {
+	font: 400 12px/17px "Montserrat", sans-serif;
+	position: relative;
+	width: 25%;
+	color: rgba(182, 182, 182, 1);
+}
+.points::after {
+	content: "";
+	position: absolute;
+	height: 10px;
+	width: 0px;
+	top: 50%;
+	transform: translateY(-50%);
+	right: -10%;
+	border-right: 1px solid rgba(182, 182, 182, 1);
+}
+.points:last-child::after {
+	display: none;
+}
+.points img {
+	margin-right: 5px;
+}
+
+.subCats {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+	margin: 10px 0;
+}
+
+.subCats .parts {
+	width: 45%;
+	box-sizing: border-box;
+	padding: 15px 12px;
+	min-width: 176px;
+	border-radius: 10px;
+	margin: 10px 0;
+	background-size: cover;
+}
+
+.parts h3 {
+	width: 100%;
+	color: white;
+	margin-bottom: 70px;
+	word-wrap: break-word;
+	font: 600 23px/26px "Montserrat", sans-serif;
+}
+.viewMore {
+	margin-bottom: 10px;
+}
+.viewMore p {
+	color: white;
+}
+
+.viewMore img {
+	margin-left: 5px;
+}
+
+.oneQuizCover {
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #23819b;
+	height: 100vh;
+	position: relative;
+}
+
+.quizHeader {
+	padding: 15px 10px;
+	width: 100%;
+	background-color: white;
+	border-radius: 0 0 30px 30px;
+}
+
+.mt20 {
+	margin-top: 20px;
+}
+.oneQuizInfo {
+	padding: 20px 10px;
+}
+
+.pointsBox {
+	justify-content: space-between;
+}
+
+.heroPoint {
+	width: 29%;
+	background-color: #4494aa;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	border-radius: 10px;
+	padding: 20px;
+	text-align: center;
+}
+
+.heroPoint h5 {
+	width: 100%;
+
+	color: white;
+	font: 500 18px/22px "Montserrat", sans-serif;
+}
+
+.heroPoint img {
+	margin: 5px;
+	width: 20px;
+}
+
+.infoPoint {
+	margin: 15px 0;
+}
+.infoPoint p {
+	width: fit-content;
+	color: white;
+	font: 500 18px/22px "Montserrat", sans-serif;
+}
+
+.oneQuizReward {
+	position: absolute;
+	bottom: 5%;
+	margin: 0 auto;
+	width: 95%;
+	right: 0;
+	left: 0;
+	box-sizing: border-box;
+}
+
+.timeBox {
+	width: 100%;
+	height: 100vh;
+	border: 1px solid black;
+	background-size: cover;
+	position: relative;
+}
+
+.timeLeft {
+	position: absolute;
+	width: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 150px;
+	background-color: white;
+	border-radius: 100%;
+	border: 10px solid yellow;
+	top: 50%;
+	left: 50%;
+	outline: 10px solid white;
+	transform: translate(-50%, -50%);
+}
+.timeLeft h2 {
+	color: rgba(219, 38, 114, 1);
+	font: 700 35px/35px "Montserrat", sans-serif;
+}
+
+.questionBox {
+	width: 100%;
+	height: 100vh;
+}
+
+.quesWarning {
+	padding: 10px 15px;
+	height: 100%;
+	background-color: #23819b;
+	width: 100%;
+	position: relative;
+}
+
+.quesWarning h3 {
+	color: white;
+}
+
+.quesWarning .proceed {
+	position: absolute;
+	bottom: 5%;
+	margin: 0 auto;
+	width: 95%;
+	right: 0;
+	left: 0;
+}
+
+.questionTimeLeft {
+	width: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 150px;
+	background-color: white;
+	border-radius: 100%;
+	margin: 0 auto;
+	border: 10px solid yellow;
+	outline: 10px solid white;
+}
+
+.quesImage {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.quesImage img {
+	width: 90%;
+	margin: 30px auto 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,70 @@
+.radio {
+    background-color: #F0F6F9 !important;
+    border-radius: 8px !important;
+    border: 1px solid #DCE3E7 !important;
+    margin-top: 20px;
+    margin-left: -.5px !important;
+    padding: 6px;
+    font-size: 1rem;
+
+
+    @media only screen and (min-width: 300px) {
+        width: 83vw;
+    }
+
+    @media only screen and (min-width: 400px) {
+        width: 84vw;
+    }
+
+    @media only screen and (min-width: 500px) {
+        width: 88vw;
+    }
+}
+
+
+
+.textField {
+    background-color: #F0F6F9 !important;
+    border-radius: 8px !important;
+    border: 1px solid #DCE3E7 !important;
+    margin-top: 10px;
+    padding: 6px;
+    font-size: 1rem;
+
+
+    @media only screen and (min-width: 300px) {
+        width: 83vw;
+    }
+
+    @media only screen and (min-width: 400px) {
+        width: 84vw;
+    }
+
+    @media only screen and (min-width: 500px) {
+        width: 90vw;
+    }
+}
+
+
+.checkbox {
+    background-color: #F0F6F9 !important;
+    border-radius: 8px !important;
+    border: 1px solid #DCE3E7 !important;
+    margin-top: 20px;
+    margin-left: -.5px !important;
+    padding: 6px;
+    font-size: 1rem;
+
+
+    @media only screen and (min-width: 300px) {
+        width: 83vw;
+    }
+
+    @media only screen and (min-width: 400px) {
+        width: 84vw;
+    }
+
+    @media only screen and (min-width: 500px) {
+        width: 88vw;
+    }
+}

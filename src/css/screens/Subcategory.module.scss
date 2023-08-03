@@ -1,0 +1,120 @@
+.main_div{
+    background:#D2E6EE ;
+
+
+    .banner{
+        display:flex;
+        flex-direction:column;
+        justify-content:center; 
+        align-items:center; 
+        // margin-bottom:0px;
+        
+        // .banner_img_top{
+        //     margin-bottom:-30px ;
+        // }
+    }
+
+    .categories_sec{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: wrap;
+        // overflow-x: scroll;
+        white-space: nowrap;
+        background: #fff;
+        // height: 250px;
+        border:2px solid red;
+        // width:100%;
+        margin: -20px 15px 10px 15px;
+        border-radius: 10px;
+        padding: 40px 0px 15px 15px;
+         gap: 20px;
+
+         .categorie{
+            border:2px solid red;
+            // min-width: 170px;
+            background-color: red;
+            background-image: url("../../assets/img/elipse.png");
+            width:44%;
+            height: 196px;
+            border-radius: 8px;
+            display:flex;
+            flex-direction:column;
+            align-items:start;
+            justify-content:space-around;
+            gap:15px;
+            overflow: hidden;
+            padding: 0px 15px;
+
+            .heading{
+                color:#fff;
+                font-size:25px;
+                font-weight: 600;
+                white-space: normal;
+                overflow-wrap: break-word;                
+            }
+
+            .link{
+                color:#fff 
+            }
+            
+         }
+
+    }
+
+
+
+    .mission_sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        white-space: nowrap;
+        background: #22819B;
+        // height: 390px;
+        margin: -20px 15px 10px 15px;
+        border-radius: 10px;
+        padding: 10px 25px 15px 15px;
+        //  gap: 20px;
+
+         .mission{
+            min-width: 330px;
+            height: 170px;
+            background: #fff;
+            border-radius: 8px;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            gap:15px;
+                .first_section{
+                        display: flex;
+                        flex-direction: row;
+                        border:2px solid red;
+                        width:30%;
+                        border:2px solid green;
+                    
+                    .mission_img{
+                        background-color: rgba(249, 207, 207, 0.2);
+                        border-radius: 50%;
+                        min-width: 61px;
+                    }
+
+                }
+
+                .second_section{
+
+                    width:70%;
+                    border:2px solid blue;
+
+                }
+            
+            
+         }
+
+    }
+}
+
